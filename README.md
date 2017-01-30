@@ -15,7 +15,7 @@ In detail:
 A List of Formatting Elements:
 ![alt text](https://github.com/yang0339/HTML-LearningMaterial/blob/master/formatting%20elements.PNG "Formatting Elements")
 
-### [The Code Reference](https://github.com/yang0339/HTML-LearningMaterial/blob/master/Module_1.html)
+### [The Code for Module 1](https://github.com/yang0339/HTML-LearningMaterial/blob/master/Module_1.html)
 
 ## Module 2: Creating Sophisticated Document Structures using HTML
 In this module, you will learn how to use advanced features of HTML such as forms and semantic
