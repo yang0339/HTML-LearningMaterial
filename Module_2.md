@@ -15,7 +15,7 @@ The form element has two primary attributes: - action: This is the URL of the we
 example:<br/>
 《form action="http://www.example.com/formsubmission" method="GET"》<br/>
     《fieldset》<br/>
-        《legend>User Information</legend》<br/>
+        《legend》User Information《/legend》<br/>
         First Name: 《input type="text" name="fname" /》<br/>
         Last Name: 《input type="text" name="lname" /》<br/>
     《/fieldset》 <br/>
