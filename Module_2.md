@@ -26,6 +26,33 @@ example:<br/>
     《input type="submit" value="Submit Information" /》<br/>
 《/form》<br/>
 
+### Other Interactive Elements
+
+* 《**textarea**》<br/>
+* 《select》<br/>
+    《**optgroup** label="Data Platform"》<br/>
+       《**option** value="DAT202x"》Processing Big Data with Azure HDInsight《/option》<br/>
+       《option value="DAT204x"》Introduction to R Programming《/option》<br/>
+    《/optgroup》<br/>
+  《/select》<br/>
+  
+* 《**button** type="button"》<br/>
+    《img src="http://..." alt="Microsoft" /》<br/>
+    《br /》<br/>
+    Apply to Microsoft!<br/>
+  《/button》<br/>
+  
+*  《fieldset》<br/>
+      《legend》Require Admin Approval《/legend》<br/>
+         Yes: 《input type="**radio**" name="approval" value="true" checked="checked" /》<br/>
+         《br/》<br/>
+         No: 《input type="radio" name="approval" value="false" /》<br/>
+    《/fieldset》<br/>
+    
+*  《input type="**range**" name="age" min="0" max="100" value="25" /》<br/>
+
+
+
 ## Time Elements
 
 example:<br/>
