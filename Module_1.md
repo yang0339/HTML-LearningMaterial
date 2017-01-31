@@ -10,3 +10,4 @@ A List of Formatting Elements:
 ![alt text](https://github.com/yang0339/HTML-LearningMaterial/blob/master/formatting%20elements.PNG "Formatting Elements")
 
 ### [The Code for Module 1](https://github.com/yang0339/HTML-LearningMaterial/blob/master/Module_1.html)
+#### Go to [this website](http://htmlpreview.github.io/?) to view the HTML.
