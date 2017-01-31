@@ -30,17 +30,17 @@ example:<br/>
 
 example:<br/>
 《time datetime="2015-12-13T08:30:00-05:00"》<br/>
-  December 12th at 《strong》08:30 AM《/strong》<br/>
-  《/time》<br/>
+    December 12th at 《strong》08:30 AM《/strong》<br/>
+《/time》<br/>
 
 ## Figure Elements
 
 example:<br/>
 《figure》<br/>
-  《img src="https://www.marketingmag.com.au/wp-content/uploads/2012/08/Microsoft-logo-slider.jpg" alt="Result" /》<br/>
-  《figcaption》<br/>
-    This is the grade we all want.<br/>
-  《/figcaption》<br/>
+    《img src="https://www.marketingmag.com.au/wp-content/uploads/2012/08/Microsoft-logo-slider.jpg" alt="Result" /》<br/>
+    《figcaption》<br/>
+        This is the grade we all want.<br/>
+    《/figcaption》<br/>
 《/figure》<br/>
 
 
