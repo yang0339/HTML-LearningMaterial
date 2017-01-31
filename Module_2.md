@@ -20,7 +20,7 @@ example:<br/>
         Last Name: 《input type="text" name="lname" /》<br/>
     《/fieldset》 <br/>
     《fieldset》<br/>
-        《legend>Location</legend》<br/>
+        《legend》Location《/legend》<br/>
         Hometown: <input type="text" name="home" /》<br/>
     《/fieldset》<br/>
     《input type="submit" value="Submit Information" /》<br/>
@@ -69,5 +69,6 @@ example:<br/>
 
 Or to embed an YouTube Video Clip:<br/>
 
-《iframe width="560" height="315" src="https://www.youtube.com/embed/1-UdWS4RAA4" frameborder="0" allowfullscreen》<br/>
+《iframe width="560" height="315" <br/>
+  src="https://www.youtube.com/embed/1-UdWS4RAA4" frameborder="0" allowfullscreen》<br/>
 《/iframe》<br/>
