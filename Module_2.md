@@ -99,3 +99,8 @@ Or to embed an YouTube Video Clip:<br/>
 《iframe width="560" height="315" <br/>
   src="https://www.youtube.com/embed/1-UdWS4RAA4" frameborder="0" allowfullscreen》<br/>
 《/iframe》<br/>
+
+
+#### [HTML for Module 2](https://github.com/yang0339/HTML-LearningMaterial/blob/master/Module_2.html)
+#### [CSS file (Semantic) for Module 2](https://github.com/yang0339/HTML-LearningMaterial/blob/master/Module_2_semantic.css)
+#### [CSS file (figure) for Module 2](https://github.com/yang0339/HTML-LearningMaterial/blob/master/Module_2_figure.css)
