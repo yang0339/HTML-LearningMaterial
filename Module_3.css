@@ -1,0 +1,71 @@
+article {
+    font-weight: bold;
+}
+
+article.spacer {
+    padding: 25px;
+    margin: 50px;
+    border: bold lightgray solid;
+}
+
+.babyBlueBackground {
+    background-color: #57BCF4;
+}
+
+.grayBackground {
+    background-color: #BFB3B5;
+}
+
+.blackBackground {
+    background-color: #242730;
+}
+
+.babyBlueText {
+    color: #57BCF4;
+}
+
+section.purpleText {
+    color: #923C9B;
+}
+
+article.purpleText {
+    color: #461559;
+}
+
+article > p {
+  color: #FFFFFF;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+article > p.blueText {
+  color: #57BCD4;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+
+article {
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+article.simpleBorder {
+    border-width: thick;
+    border-color: #69D2E7;
+    border-style: solid;
+}
+
+article.complexBorder {
+    border-width: 15px;
+    border-color: #F38630;
+    border-style: inset solid;
+}
+
+article.shortBorder {
+    border: 25px #FA6900 dotted;
+    background-color: #E0E4CC;
+}
