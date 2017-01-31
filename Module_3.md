@@ -102,5 +102,5 @@ body {<br/>
 
 
 #### [HTML for Module 3](https://github.com/yang0339/HTML-LearningMaterial/blob/master/Module_3.html)
-#### [CSS file for Module 3](https://github.com/yang0339/HTML-LearningMaterial/blob/master/Module_3.html)
+#### [CSS file for Module 3](https://github.com/yang0339/HTML-LearningMaterial/blob/master/Module_3.css)
 #### Go to [this website](http://htmlpreview.github.io/?) to view the HTML.
