@@ -1,0 +1,91 @@
+<body>
+    <header id="headerItem">
+        Old Header
+    </header>
+    <p>
+      <font face="Consolas" font-size="12px" color="darkgray">
+        This is first part on simple JS logic.
+        <div>click on the button to change the header and pop an alert.</div>
+      </font>
+    </p>
+    <section>
+        <button onclick="startLogic()+clickHandler()">Click Here</button>
+    </section>
+    <script type="text/javascript">
+        function startLogic() {
+            var newHtml = '<em>New Header</em>';
+            document.getElementById('headerItem').innerHTML = newHtml;
+        }
+        function clickHandler() {
+            alert('You clicked me!');
+        }
+    </script>
+    <br/>
+    <hr/>
+    <br/>
+
+    <p>
+        <font face="Consolas" font-size="12px" color="darkgray">
+          This is second part on HTML + JS.
+          <div>click on the Paragraph to change it. And change "testVariable" in js file to see its type.</div>
+          <div>Finally, observe the left-to-right appending of "+" sign.</div>
+      </font>
+    </p>
+    <p id='clickMe'  onclick="myfunction()">
+        <font face="Consolas" size="62px" color="purple">
+            Click me to change the Paragraph!
+        </font>
+    </p>
+            <dl>
+        <dt>Is the variable undefined?</dt>
+        <dd id="isUndefined"></dd>
+        <dt>Is the variable null?</dt>
+        <dd id="isNull"></dd>
+        <dt>Is the variable empty?</dt>
+        <dd id="isEmpty"></dd>
+    </dl>
+    <section id="output"></section>
+    </body>
+    <script type="text/javascript" src="module_4.js"></script>
+
+    <br/>
+    <hr/>
+    <p>
+        <font face="Consolas" font-size="12px" color="darkgray">
+          This is third part on JS callbacks.
+          <div>See how JS evokes pop window and save values to cookie.</div>
+      </font>
+    </p>
+    <script src="module_4.js"></script>
+    <form>
+        <fieldset>
+            <legend>Text Value</legend>
+            Position: <input type="text" name="position" value="" />
+        </fieldset>
+        <fieldset>
+            <legend>Radio Value</legend>
+            <em>Department</em><br />
+            FIELD: <input type="radio" name="department" value="Field" checked="checked" /><br />
+            ITOPS: <input type="radio" name="department" value="IT Operations" /><br />
+            SALES: <input type="radio" name="department" value="Sales" /><br />
+            MGMT: <input type="radio" name="department" value="Management" />
+        </fieldset>
+        <button type="button" onclick="saveTextValue()">Save Text</button>
+        <button type="button" onclick="saveRadioValue()">Save Radio</button>
+    </form>
+    <br/>
+    <hr/>
+
+    <p>
+      <font face="Consolas" font-size="12px" color="darkgray">
+        This is last part on JS Canvas.
+        <div>See how JS together with CSS works on a canvas.</div>
+      </font>
+    </p>
+    <link rel="stylesheet" href="canvas.css" />
+    <canvas id="demoCanvas" width="800" height="400">
+        Test Text
+    </canvas>
+    <script src="canvas.js"></script>
+
+</body>
