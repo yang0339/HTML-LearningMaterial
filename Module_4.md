@@ -13,9 +13,9 @@ JavaScript executes only on the web page that is in the window of the browser at
 
 JavaScript statements are written with a script tag <em>《SCRIPT》<em>.<br/>
 
-### BASICS
+#### BASICS
 
-#### Expressions
+##### Expressions
 
 var firstNumber = 1;<br/>
 firstNumber == 2;<br/>
@@ -24,12 +24,12 @@ thirdNumber += 1;<br/>
 **window.alert**('Hello');<br/>
 **document.write**('《h1》Header《/h1》《p>Test Text to the body《/p》《footer》《small》Footer《/small》《/footer》');<br/>
 
-#### Operators(some special ones)
+##### Operators(some special ones)
 
 * === Comparison: equal value and equal type
 * ? Comparison: ternary operator E.g.: var IfGIsTrueReturnBOtherwiseReturnA = g ? t : f;<br/>
 
-#### Control Statements
+##### Control Statements
 
 * IF-ELSE
 * FOR 
@@ -44,13 +44,14 @@ function increment(item, index) {<br/>
 numbers.forEach(increment);<br/>
 alert(sum);<br/>
 
-### JAVASCRIPT TYPES
+#### JAVASCRIPT TYPES
 
 * Primitive: Boolean Data Type, Number Data Type, String Data Type
 * Composite Data Types: JAVASCRIPT OBJECTS
 * Collections: JavaScript *Arrays* are special objects that can contain values of various types
 * Undefined and Null
 
+<hr/>
 ### IMPLEMENTING PROGRAM FLOW
 
 #### JAVASCRIPT CALLBACKS AND EVENT HANDLING
@@ -105,7 +106,7 @@ onclick |	The user clicks an HTML element
 onkeydown |	The user pushes a keyboard key
 
 #### Bubbled Events
-
+<hr/>
 
 ### DOCUMENT OBJECT MODEL (DOM)
 
@@ -168,6 +169,7 @@ xhttp.onreadystatechange = function() {<br/>
 xhttp.open("GET", "filename", true);<br/>
 xhttp.send();<br/>
 
+<hr/>
 ### HTML5 APIs
 
 #### Storage
