@@ -220,6 +220,6 @@ var worker = new Worker("WorkerFile.js");<br/>
 
 <hr/>
 
-[Module 4 HTML](https://github.com/yang0339/HTML-LearningMaterial/blob/master/Module_4.html)
-[Module 4 JAVASCRIPT](https://github.com/yang0339/HTML-LearningMaterial/blob/master/Module_4.js)
-[Module 4 CANVAS CSS](https://github.com/yang0339/HTML-LearningMaterial/blob/master/Module_4_canvas.css)[Module 4 CANVAS JS](https://github.com/yang0339/HTML-LearningMaterial/blob/master/Module_4_canvas.js)
+### [Module 4 HTML](https://github.com/yang0339/HTML-LearningMaterial/blob/master/Module_4.html)
+### [Module 4 JAVASCRIPT](https://github.com/yang0339/HTML-LearningMaterial/blob/master/Module_4.js)
+### [Module 4 CANVAS CSS](https://github.com/yang0339/HTML-LearningMaterial/blob/master/Module_4_canvas.css), [Module 4 CANVAS JS](https://github.com/yang0339/HTML-LearningMaterial/blob/master/Module_4_canvas.js)
