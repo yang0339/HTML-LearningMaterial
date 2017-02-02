@@ -6,6 +6,7 @@ HTML5 introduced a new series of semantic elements that function identically to 
 
 ![alt text](https://github.com/yang0339/HTML-LearningMaterial/blob/master/semantic%20elements.PNG)
 
+Detail Layout, and more on CSS/BootStrap template can be found [**here**](http://www.w3schools.com/html/html_layout.asp)
 <hr/>
 
 ## Create a form
