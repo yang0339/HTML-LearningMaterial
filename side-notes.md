@@ -32,6 +32,13 @@ document.getElementById("demo").innerHTML = x + y;<br/>
 * "var" for variable. Example:<br/>
 <p>Einstein wrote: <var>E</var> = <var>m</var><var>c</var><sup>2</sup>.</p>
 
+* Comment:  《!-- this is how to comment --》
 
+* [**INTERESTING COLOR PICKER**](http://www.w3schools.com/colors/colors_picker.asp?colorhex=00FFFF)
+* [**INTERESTING COLOR MIXER**](http://www.w3schools.com/colors/colors_mixer.asp?colorbottom=000000&colortop=FFFFFF)
 
+* [Table](http://www.w3schools.com/html/html_tables.asp)
+* [List](http://www.w3schools.com/html/html_lists.asp
+
+* An [**"iframe"**](http://www.w3schools.com/html/html_iframe.asp) is used to display a web page within a web page.
 
