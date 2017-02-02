@@ -38,8 +38,10 @@ document.getElementById("demo").innerHTML = x + y;<br/>
 * [**INTERESTING COLOR MIXER**](http://www.w3schools.com/colors/colors_mixer.asp?colorbottom=000000&colortop=FFFFFF)
 
 * [Table](http://www.w3schools.com/html/html_tables.asp)
-* [List](http://www.w3schools.com/html/html_lists.asp
+* [List](http://www.w3schools.com/html/html_lists.asp)
 
 * An [**"iframe"**](http://www.w3schools.com/html/html_iframe.asp) is used to display a web page within a web page.
 
-* [HTML Entity](http://www.w3schools.com/html/html_entities.asp) Reserved characters in HTML must be replaced with character entities. 
+* [HTML Entity](http://www.w3schools.com/html/html_entities.asp) Reserved characters in HTML must be replaced with character entities. Other [Symbols](http://www.w3schools.com/html/html_symbols.asp) references also.
+
+* More on [**FORM ELEMENTS**](http://www.w3schools.com/html/html_form_elements.asp) and [**Input Types**](http://www.w3schools.com/html/html_form_input_types.asp)
