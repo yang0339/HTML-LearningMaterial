@@ -19,7 +19,7 @@ You will also be introduced to the CSS box model.
 In this module, you will learn how to use JavaScript to add a logical flow to your web page. You will first
 learn the basics of the JavaScript language and then implement simple JavaScript applications through
 hands-on exercises.
-## Module 5: Adding External Libraries to Enhance HTML Applications
+## [Module 5: Adding External Libraries to Enhance HTML Applications](https://github.com/yang0339/HTML-LearningMaterial/blob/master/Module_5.md)
 In this module, you will briefly learn about various external libraries that can be used to enhance your
 HTML content, CSS stylesheets and JavaScript code. Featured libraries include: AngularJS, Bootstrap,
 jQuery, TypeScript and Sass. 
