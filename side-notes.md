@@ -1,3 +1,5 @@
+```html
+
 * <pre> "pre tag" renders a pre-defined style, which cold be rendered differently across different compiler. </pre> 
 
 * <ins> "ins" is insertion, but looks like underline. </ins>
@@ -32,7 +34,8 @@ document.getElementById("demo").innerHTML = x + y;<br/>
 * "var" for variable. Example:<br/>
 <p>Einstein wrote: <var>E</var> = <var>m</var><var>c</var><sup>2</sup>.</p>
 
-* Comment:  &lt;!-- this is how to comment --&gt;
+* Comment:  <!-- this is how to comment -->
+```
 
 * [**INTERESTING COLOR PICKER**](http://www.w3schools.com/colors/colors_picker.asp?colorhex=00FFFF)
 * [**INTERESTING COLOR MIXER**](http://www.w3schools.com/colors/colors_mixer.asp?colorbottom=000000&colortop=FFFFFF)
