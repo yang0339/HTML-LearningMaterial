@@ -63,7 +63,7 @@ example:<br/>
 ```html
 <time datetime="2015-12-13T08:30:00-05:00">
     December 12th at <strong>08:30 AM</strong>
-/time>
+</time>
 ```
 
 ## Figure Elements
