@@ -5,7 +5,7 @@ Cascading Style Sheets (CSS) is a language that controls and allows one to defin
 The coding of CSS style rules can be done in three places, namely:
 
 * **Inline** - done in the HTML tag.
-* **Internal Style Sheet** - coded at the beginning of a HTML document i.e. inside the <head></head> tags, and closed by the 《style type=“text/css”》 《/style》 tags.
+* **Internal Style Sheet** - coded at the beginning of a HTML document i.e. inside the ```<head></head> ``` tags, and closed by the ```<style type=“text/css”></style>``` tags.
 * **External Style Sheet** - this is a separate file with a .css extension which serves as a reference for multiple HTML pages to use. A link is defined in the header of the HTML pages pointing browsers to where to look for the styles.
 
 ### CSS Syntax
@@ -13,7 +13,7 @@ The coding of CSS style rules can be done in three places, namely:
 * **CSS selectors** - this is the core foundation of CSS since it defines the HTML element being manipulated with the CSS code.
 * **The declaration** - consists of one or more **property-value** pairs where the property is the CSS element or style being manipulated and the value represents the value of the specified property. Each property-value pair usually ends in a semi-colon and the declaration is enclosed in curly brackets. 
 
-For example, <em><strong>h1 {color: red;}</strong></em>.
+For example, ```h1 {color: red;}```.
 
 There could be anyway, some variations on the naming/targeting, the followings are all valid syntax:
 
@@ -44,9 +44,11 @@ When you apply CSS styles to a HTML page, these styles join an ascending order o
 #### The !important keyword
 In CSS you can use the keyword **!important** to override existing CSS declarations (styles) and skip to the front of the order of inheritance.
 example:<br/>
-body {<br/>
-    color: red **!important**;<br/>
-}<br/>
+```css
+body {
+    color: red **!important**;
+}
+```
 
 
 ### Box Model
@@ -69,36 +71,40 @@ CSS Media Queries allow us to conditionally apply CSS in specific scenarios base
 
 Example:
 This media query is applied only if the user is looking at the browser through a screen (desktop, tablet, phone, laptop, etc.). This is the most common scenario. In this example, we have a lively background color of red for our web application.
-@media screen {<br/>
-    body {<br/>
-        background-color: red;<br/>
-    }<br/>
-}<br/>
+```css
+@media screen {
+    body {
+        background-color: red;
+    }
+}
+```
 
 
 ### CSS Font Properties
 
 If we are unsure which fonts are installed on the user browser, we can specify multiple fonts. The browser will attempt to load the fonts from left to right until it finds a font that exists:
 
-article {<br/>
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino ;<br/>
-}<br/>
-header {<br/>
-    font-family: "Lucida Sans Unicode", "Lucida Grande", Arial ;<br/>
-}<br/>
-
+```css
+article {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino ;
+}
+header {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Arial ;
+}
+```
 User-Define Font Families:
 Example:
+```css
+@font-face {
+    font-family: "**Simple Font**";
+    font-style: italic;
+    src: url(simplefont_italic.ttf);
+}
 
-@font-face {<br/>
-    font-family: "**Simple Font**";<br/>
-    font-style: italic;<br/>
-    src: url(simplefont_italic.ttf);<br/>
-}<br/>
-
-body {<br/>
-    font-family: "**Simple Font**";  <br/>
-}<br/>
+body {
+    font-family: "**Simple Font**"; 
+}
+```
 
 
 #### [HTML for Module 3](https://github.com/yang0339/HTML-LearningMaterial/blob/master/Module_3.html)
