@@ -11,18 +11,21 @@ JavaScript can be used to:
 
 JavaScript executes only on the web page that is in the window of the browser at any set time. This means that the scripts running on a page are immediately stopped the moment the user stops viewing the page. The only exemption to this is various client-side storage APIs and cookies which can be utilized by multiple pages to accumulate and pass information between them. This can happen even after the closure of the pages.
 
-JavaScript statements are written with a script tag <em>《SCRIPT》<em>.<br/>
+JavaScript statements are written with a script tag ```<SCRIPT>```.
 
 #### BASICS
 
 ##### Expressions
 
-var firstNumber = 1;<br/>
-firstNumber == 2;<br/>
-var thirdNumber = firstNumber + secondNumber;<br/>
-thirdNumber += 1;<br/>
-**window.alert**('Hello');<br/>
-**document.write**('《h1》Header《/h1》《p>Test Text to the body《/p》《footer》《small》Footer《/small》《/footer》');<br/>
+```javascript
+var firstNumber = 1;
+firstNumber == 2;
+var thirdNumber = firstNumber + secondNumber;
+thirdNumber += 1;
+
+window.alert('Hello');
+document.write('《h1》Header《/h1》《p>Test Text to the body《/p》《footer》《small》Footer《/small》《/footer》');
+```
 
 ##### Operators(some special ones)
 
@@ -35,14 +38,16 @@ thirdNumber += 1;<br/>
 * FOR 
 * SWITCH
 * **Foreach**: invokes a function (named or anonymous) for each item in the array. This can be used to easily iterate over the items in an array.<br/>
-E.g.: <br/>
-var sum = 0;<br/>
-var numbers = [4, 9, 16, 25];<br/>
-function increment(item, index) {<br/>
-    sum += item;<br/>
-}<br/>
-numbers.forEach(increment);<br/>
-alert(sum);<br/>
+E.g.: 
+```javascript
+var sum = 0;
+var numbers = [4, 9, 16, 25];
+function increment(item, index) {
+    sum += item;
+}
+numbers.forEach(increment);
+alert(sum);
+```
 
 #### JAVASCRIPT TYPES
 
@@ -60,39 +65,54 @@ CASE STUDY:
 Four ways of handling the "click" event
 
 **Method 1**:<br/>
-《p id="dateTarget"》《/p》<br/>
-《button onclick='getElementById("dateTarget").innerHTML = Date()'》Get Current Time《/button》<br/>
+```html
+<p id="dateTarget"></p>
+<button onclick='getElementById("dateTarget").innerHTML = Date()'>Get Current Time</button>
+```
 
 **Method 2**: <br/>
-function handleClick() {<br/>
-    document.getElementById("dateTarget").innerHTML = Date();<br/>
-}<br/>
-+<br/>
-《p id="dateTarget"》《/p》<br/>
-《button onclick='handleClick()'》Get Current Time《/button》<br/>
+```javascript
+function handleClick() {
+    document.getElementById("dateTarget").innerHTML = Date();
+}
+```
++
+```html
+<p id="dateTarget"></p>
+<button onclick='handleClick()'>Get Current Time</button>
+```
 
 **Method 3**: <br/>
-document.getElementById('dateButton').onclick = handleClick;<br/>
-function handleClick() {<br/>
-    document.getElementById('dateTarget').innerHTML = Date();<br/>
-}<br/>
-+<br/>
-《p id="dateTarget"》《/p》<br/>
-《button id="dateButton"》Get Current Time《/button》<br/>
+```javascript
+document.getElementById('dateButton').onclick = handleClick;
+function handleClick() {
+    document.getElementById('dateTarget').innerHTML = Date();
+}
+```
++
+```html
+<p id="dateTarget"></p>
+<button id="dateButton">Get Current Time</button>
+```
 
 **Method 4**: <br/>
-document.getElementById('dateButton').addEventListener('click', handleClick);<br/>
-function handleClick() {<br/>
-    document.getElementById('dateTarget').innerHTML = Date();<br/>
-}<br/>
-+<br/>
-《p id="dateTarget"》《/p》<br/>
-《button id="dateButton"》Get Current Time《/button》<br/>
+```javascript
+document.getElementById('dateButton').addEventListener('click', handleClick);
+function handleClick() {
+    document.getElementById('dateTarget').innerHTML = Date();
+}
++
+```html
+<p id="dateTarget"></p>
+<button id="dateButton">Get Current Time</button>
+```
 
 Or **simpler**:<br/>
-document.getElementById('dateButton').addEventListener('click', function handleClick() {<br/>
-    document.getElementById('dateTarget').innerHTML = Date();<br/>
-});<br/>
+'''javascript
+document.getElementById('dateButton').addEventListener('click', function handleClick() {
+    document.getElementById('dateTarget').innerHTML = Date();
+});
+```
 
 **Common HTML Element Events**
 Here's the most common HTML element events that you may use in your web pages.
