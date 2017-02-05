@@ -109,7 +109,7 @@ function handleClick() {
 ```
 
 Or **simpler**:<br/>
-'''javascript
+```javascript
 document.getElementById('dateButton').addEventListener('click', function handleClick() {
     document.getElementById('dateTarget').innerHTML = Date();
 });
@@ -143,52 +143,59 @@ The HTML DOM is a standard object model and programming interface for HTML. The 
 
 JavaScript allows you to specify error handling blocks that can run code in errant scenarios. The ***try*** statement allows you to execute code within a "sandbox" that test the code for errors. If an error occurs, the code within the ***catch*** statement is executed and gives you an opportunity to safely handle the error.
 
-try {<br/>
-  callExternalFunction();<br/>
-}<br/>
-catch(error) {<br/>
-    console.log(error.message);<br/>
-}<br/>
+```javascript
+try {
+  callExternalFunction();
+}
+catch(error) {
+    console.log(error.message);
+}
+```
 
 The ***finally*** statement is useful if you would like to ensure that a block of code is executed, if possible, after your exception is handled safely. If you are opening connections to external services, this can be a good place to ensure that the connection is closed. The finally statement is ran regardless of the result.
 
-var connection = getExternalConnection();<br/>
-try {<br/>
-  connection.open();<br/>
-  connection.callExternalFunction();<br/>
-}<br/>
-catch(error) {<br/>
-    console.log(error.message);<br/>
-}<br/>
-finally {<br/>
-  connection.close();<br/>
-}<br/>
+```javascript
+var connection = getExternalConnection();
+try {
+  connection.open();
+  connection.callExternalFunction();
+}
+catch(error) {
+    console.log(error.message);
+}
+finally {
+  connection.close();
+}
+```
 
 You can also create your own custom errors using the ***throw*** statement.
 
-try {<br/>
-  callExternalFunction();<br/>
-  if (result.isNotValid) {<br/>
-    throw "issue with external service";<br/>
-  }<br/>
-}<br/>
-catch(error) {<br/>
-    console.log(error.message);<br/>
-}<br/>
-
+```javascript
+try {
+  callExternalFunction();
+  if (result.isNotValid) {
+    throw "issue with external service";
+  }
+}
+catch(error) {
+    console.log(error.message);
+}
+```
 
 #### XMLHTTPREQUEST
 
 Modern browsers have an object that is built-in to JavaScript to handle the act of requesting data from a server. This object is referenced using the XMLHttpRequest identifier. Most browsers have a built-in facility to handle accessing, parsing and manipulating XML.
 
-var xhttp = new XMLHttpRequest();<br/>
-xhttp.onreadystatechange = function() {<br/>
-    if (xhttp.readyState == 4 && xhttp.status == 200) {<br/>
-       // Action to be performed when the document is read;<br/>
-    }<br/>
-};<br/>
-xhttp.open("GET", "filename", true);<br/>
-xhttp.send();<br/>
+```javascript
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+       // Action to be performed when the document is read;
+    }
+};
+xhttp.open("GET", "filename", true);
+xhttp.send();
+```
 
 <hr/>
 ### HTML5 APIs
@@ -205,27 +212,33 @@ localStorage.getItem("lastname");<br/>
 ##### sessionStorage Object
 The sessionStorage object stores data for a single session. If you close a browser window or tab, the data is lost.
 
-sessionStorage.clickcount = Number(sessionStorage.clickcount) + 1;<br/>
-var getClickCount = 'Click Count: ' + sessionStorage.clickcount;<br/>
+```javascript
+sessionStorage.clickcount = Number(sessionStorage.clickcount) + 1;
+var getClickCount = 'Click Count: ' + sessionStorage.clickcount;
+```
 
 #### Geolocation
 
 ##### Get Current Position
 First, use the getCurrentPosition() function to get the user's current position. The data returned is the latitude and longitude of the user. The function takes a callback parameter and will invoke this function once it has determined the location:
 
-function getPositionResult(position) {<br/>
-    console.log(position.coords.latitude + ' ' position.coords.longitude);<br/>
-}<br/>
-navigator.geolocation.getCurrentPosition(getPositionResult);<br/>
+```javascript
+function getPositionResult(position) {
+    console.log(position.coords.latitude + ' ' position.coords.longitude);
+}
+navigator.geolocation.getCurrentPosition(getPositionResult);
+```
 
 ##### Watch Position
 The watchPosition() function invokes the callback function as the user moves so that you can track their position over time. To stop watching the user's position, invoke the clearWatch() function.
 
-function refreshPosition(position) {<br/>
-    var list = document.getElementById('positionList');<br/>
-    list.innerHtml += ('<li>' + position.coords.latitude + ' ' position.coords.longitude + '</li>');<br/>
-}<br/>
-navigator.geolocation.watchPosition(refreshPosition);<br/>
+```javascript
+function refreshPosition(position) {
+    var list = document.getElementById('positionList');
+    list.innerHtml += ('<li>' + position.coords.latitude + ' ' position.coords.longitude + '</li>');
+}
+navigator.geolocation.watchPosition(refreshPosition);
+```
 
 #### Canvas
 
@@ -234,7 +247,9 @@ See the example in the code.
 #### Web Workers
 A web worker is a JavaScript file with logic written to run in the background, without affecting the performance of the page or making the page unresponsive.
 
-var worker = new Worker("WorkerFile.js");<br/>
+```javascript
+var worker = new Worker("WorkerFile.js");
+```
 
 #### Web Sockets
 
