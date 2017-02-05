@@ -14,44 +14,47 @@ Detail Layout, and more on CSS/BootStrap template can be found [**here**](http:/
 The form element has two primary attributes: - action: This is the URL of the web server or web service where you want you form data saved. - method: This is the HTTP method you are using to save your form data. Only GET and POST are valid in this context.
 
 example:<br/>
-《form action="http://www.example.com/formsubmission" method="GET"》<br/>
-    《fieldset》<br/>
-        《legend》User Information《/legend》<br/>
-        First Name: 《input type="text" name="fname" /》<br/>
-        Last Name: 《input type="text" name="lname" /》<br/>
-    《/fieldset》 <br/>
-    《fieldset》<br/>
-        《legend》Location《/legend》<br/>
-        Hometown: <input type="text" name="home" /》<br/>
-    《/fieldset》<br/>
-    《input type="submit" value="Submit Information" /》<br/>
-《/form》<br/>
+```html
+<form action="http://www.example.com/formsubmission" method="GET">
+    <fieldset>
+        <legend>User Information</legend>
+        First Name: 《input type="text" name="fname" />
+        Last Name: 《input type="text" name="lname" />
+        </fieldset>
+    <fieldset>
+        <legend>Location</legend>
+        Hometown: <input type="text" name="home" />
+    </fieldset>
+    <input type="submit" value="Submit Information" />
+</form>
+```
 
 ### Other Interactive Elements
 
-* 《**textarea**》<br/>
-* 《select》<br/>
-    《**optgroup** label="Data Platform"》<br/>
-       《**option** value="DAT202x"》Processing Big Data with Azure HDInsight《/option》<br/>
-       《option value="DAT204x"》Introduction to R Programming《/option》<br/>
-    《/optgroup》<br/>
-  《/select》<br/>
+```html
+* <textarea>
+* <select>
+    <optgroup label="Data Platform">
+       <option value="DAT202x"> Processing Big Data with Azure HDInsight</option>
+       <option value="DAT204x">Introduction to R Programming</option>
+    </optgroup>
+  </select>
   
-* 《**button** type="button"》<br/>
-    《img src="http://..." alt="Microsoft" /》<br/>
-    《br /》<br/>
-    Apply to Microsoft!<br/>
-  《/button》<br/>
+* <button type="button">
+    <img src="http://..." alt="Microsoft" />
+    <br />
+    Apply to Microsoft!
+  </button>
   
-*  《fieldset》<br/>
-      《legend》Require Admin Approval《/legend》<br/>
-         Yes: 《input type="**radio**" name="approval" value="true" checked="checked" /》<br/>
-         《br/》<br/>
-         No: 《input type="radio" name="approval" value="false" /》<br/>
-    《/fieldset》<br/>
+*  <fieldset>
+      <legend>Require Admin Approval</legend>
+         Yes: 《input type="**radio**" name="approval" value="true" checked="checked" />
+         <br/>
+         No: 《input type="radio" name="approval" value="false" />
+    </fieldset>
     
-*  《input type="**range**" name="age" min="0" max="100" value="25" /》<br/>
-
+*  <input type="**range**" name="age" min="0" max="100" value="25" />
+```
 
 
 ## Time Elements
