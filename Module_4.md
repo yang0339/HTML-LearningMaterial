@@ -24,7 +24,7 @@ var thirdNumber = firstNumber + secondNumber;
 thirdNumber += 1;
 
 window.alert('Hello');
-document.write('《h1》Header《/h1》《p>Test Text to the body《/p》《footer》《small》Footer《/small》《/footer》');
+document.write('<h1>Header</h1><p>Test Text to the body</p><footer><small>Footer></small></footer>');
 ```
 
 ##### Operators(some special ones)
