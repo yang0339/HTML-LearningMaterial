@@ -101,6 +101,7 @@ document.getElementById('dateButton').addEventListener('click', handleClick);
 function handleClick() {
     document.getElementById('dateTarget').innerHTML = Date();
 }
+```
 +
 ```html
 <p id="dateTarget"></p>
