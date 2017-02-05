@@ -46,7 +46,7 @@ In CSS you can use the keyword **!important** to override existing CSS declarati
 example:<br/>
 ```css
 body {
-    color: red **!important**;
+    color: red !important;
 }
 ```
 
@@ -96,13 +96,13 @@ User-Define Font Families:
 Example:
 ```css
 @font-face {
-    font-family: "**Simple Font**";
+    font-family: "Simple Font";
     font-style: italic;
     src: url(simplefont_italic.ttf);
 }
 
 body {
-    font-family: "**Simple Font**"; 
+    font-family: "Simple Font"; 
 }
 ```
 
